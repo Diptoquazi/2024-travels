@@ -4,7 +4,8 @@
 }
 
 
-nav{ justify-content: space-between;
+nav{ overflow: hidden;
+    justify-content: space-between;
     display: flex;
 margin-left: 30px;
 }
@@ -50,4 +51,106 @@ font-size: 36px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+}
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    header {
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    .icon {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+        order: 1;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu-toggle:checked + .menu {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav li {
+        margin: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 577px) {
+    .icon {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        order: 1;
+    }
+
+    nav li {
+        margin-right: 20px;
+        list-style: none;
+        font-size: 18px;
+        font-weight: 1rem;
+        text-align: center;
+    }
+
+    nav li a {
+        text-decoration: none;
+        color: var(--Dark-02, #424247);
+        font-family: Mulish;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .a-home {
+        color: #FF5400;
+    }
+
+    .img1 {
+        width: 40px;
+        height: 35px;
+    }
+
+    .text {
+        color: #131318;
+        font-family: Mulish;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .main-text {
+        color: #FF5400;
+        font-family: Mulish;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
 }
