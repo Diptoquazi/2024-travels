@@ -202,6 +202,154 @@ line-height: 26px;
     border-radius: 8px; 
 }
 
+h5{ 
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.text4{
+    
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+}
+
+
+.Handpicked{ margin-bottom: -100px;
+    width: 573px;
+height: 284px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+
+h6{  margin-left: -380px;
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.text5{ 
+    width: 486px;
+    height: 78px;
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+.World-class{ margin-left: 750px;
+    margin-bottom: 400px;
+    margin-top: -250px;
+    width: 573px;
+height: 284px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+.text6{
+    color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.text7{
+    width: 486px;
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+.Best-Price{ margin-bottom: 400px;
+    margin-top: -280px;
+    margin-left: 400px;
+    width: 573px;
+height: 284px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+}
+.text8s{
+    color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.text9{
+    width: 486px;
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+}
+.winter{ margin-top: -300px;
+    margin-bottom: 100px;
+    position: relative;
+    margin-left: 30px;
+    width: 1300px;
+    height: 600px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("winter\ 1.webp");
+    background-size: cover; 
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.read-on{ margin-left: 1125px;
+    margin-top: 550px;
+}
+.text10{
+    margin-bottom: 250px;
+    position: absolute;
+    text-align: center;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 68px;
+    font-weight: 800;
+}
+
+.text11{
+    position: absolute;
+    width: 800px;
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+
+
+
+
 
 
 
@@ -364,19 +512,92 @@ line-height: 26px;
 @media screen and (max-width: 600px) {
     .img3,
     .img4,
-    .img5 {
+    .img5 { width: 335px;
+        height: 176px;
+        flex-shrink: 0;
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .img3,
-    .img4 {
-        margin: 0;
+    .img4,
+    .img5 { 
+        margin-top: 90px;
+    }
+    .img5{
+        margin-top: 500px;
     }
 
     h4,
     p.text3 {
         margin: 0; 
         text-align: center;
+    }
+    h5, p.text4{
+        margin-top: 250px;
+    }
+    p.text4{
+        margin-top: -60px;
+    }
+    h5 {
+        font-size: 24px;
+        line-height: 1.5;
+    }
+
+    .text4 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .Handpicked {
+        margin-bottom: 20px;
+        width: 100%;
+        height: auto;
+    }
+
+    h6 {
+        margin-left: 0;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .text5 {
+        width: 100%;
+        height: auto;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .World-class {
+        margin: 20px auto;
+        width: 100%;
+        height: auto;
+    }
+
+    .text6 {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .text7 {
+        width: 100%;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .Best-Price {
+        margin: 20px auto;
+        width: 100%;
+        height: auto;
+    }
+
+    .text8s {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .text9 {
+        width: 100%;
+        font-size: 14px;
+        line-height: 20px;
     }
 }
